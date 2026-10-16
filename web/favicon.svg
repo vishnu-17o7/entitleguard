@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-label="EntitleGuard">
+  <rect width="32" height="32" fill="#f4efe6"/>
+  <rect x="1.25" y="1.25" width="29.5" height="29.5" fill="none" stroke="#1c1914" stroke-width="1.5"/>
+  <rect x="5.5" y="6.5" width="8" height="8" fill="none" stroke="#1c1914" stroke-width="1.75"/>
+  <rect x="18" y="17" width="8" height="8" fill="#8f3418"/>
+  <path d="M13.5 10.5H18V17" fill="none" stroke="#8f3418" stroke-width="1.75"/>
+</svg>

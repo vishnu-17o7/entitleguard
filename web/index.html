@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#faf9f6">
+  <title>EntitleGuard</title>
+  <link rel="icon" href="/static/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/static/app.css?v=30">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="masthead">
+    <div class="header-inner">
+      <a class="brand" href="#overview"><img src="/static/favicon.svg?v=30" width="28" height="28" alt="">EntitleGuard</a>
+      <nav id="nav" aria-label="Main navigation"></nav>
+      <form id="search-form" class="global-search" role="search">
+        <label class="sr-only" for="global-q">Find an identity</label>
+        <input id="global-q" placeholder="Find an identity or role" type="search" autocomplete="off">
+      </form>
+      <a id="shell-export" class="btn quiet header-export" href="/api/export?format=html" target="_blank" rel="noopener">Export report</a>
+    </div>
+  </header>
+  <div class="shell">
+    <div class="content">
+      <div id="run-warning" class="run-warning" role="status" hidden></div>
+      <main id="main" tabindex="-1"><div class="skeleton" aria-label="Loading console" aria-busy="true"></div></main>
+      <footer><span>Synthetic data. Live access stays unchanged.</span><span id="snapshot">Loading dataset...</span></footer>
+    </div>
+  </div>
+  <div id="toast" role="status" aria-live="polite"></div>
+  <script type="module" src="/static/app.js?v=30"></script>
+</body>
+</html>
